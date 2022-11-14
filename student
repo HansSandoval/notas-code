@@ -1,0 +1,40 @@
+class Student:
+    ##atributos##
+    id= 0
+    dv = ' '
+    alternative_id = ''
+    names = ''
+    first_name = ''
+    last_name = ''
+    ##fin atributos##
+    ##metodos
+    def __init__(self,id,run,dv,alternative_id,names,first_name,last_name):
+        self.id = id
+        self.run = run
+        self.dv = dv
+        self.alternative_id = alternative_id
+        self.names = names
+        self.first_names = first_name
+        self.last_name = last_name
+    ##input##
+    run= int(input("ingresar el rut sin digito verificador(en caso de no tener rut digite un 0):"))
+    dv= int(intput("ingrese el digito verificador de su rut(en caso de no tener dejar en blanco):"))
+    if (verification==0):
+        alternative_id=int(intput("ingrese su numero de pasaporte u otra id")
+
+    names= (input("ingrese sus nombres"))
+    first_name= (input("ingrese su primer apellido"))
+    last_name= 
+    (input("ingrese su segundo apellido"))
+    alternative_id=id
+    
+    ##fin del input##
+    
+
+class Course:
+name=''
+id=''
+alternative_id=''
+def __init__(self,name,id):
+    self.name = name
+    self.id = id
